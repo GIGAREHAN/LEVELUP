@@ -2,7 +2,7 @@ import random
 num = random.randint(1,10)
 print("Hi welcome to guessing a number game")
 print("CHOOSE NUMBER BETWEEN 1 to 10")
-print(num)
+'''print(num)'''
 
 if num % 2 == 0:
     print("It is a even no.")

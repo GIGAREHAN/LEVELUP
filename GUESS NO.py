@@ -12,6 +12,7 @@ else:
 a = int(input("Guess no. :"))
 if a == num :
     print("you got it")
+    exit()
 else:
     print("nooo")
 if num >= 5:
